@@ -21,12 +21,12 @@
     header {
         background-color: #000;
         color: #fff;
-        padding: 2rem;
         text-align: center;
+        padding: 1rem;
     }
 
     main {
-        padding: 2rem;
+        padding-top: 1rem;
     }
 
     footer {

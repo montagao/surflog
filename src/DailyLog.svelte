@@ -15,13 +15,20 @@
     <div class="log-header">
         <h2>{log.date}</h2>
     </div>
+    <p><strong>Wave Conditions:</strong></p>
     <div>
         <img src="/{log.waveImage}" alt="Wave conditions" class="wave-image" />
+        <p><strong>Vibe:</strong></p>
+        <div>
+            <img
+                src="/{log.vibeImage}"
+                alt="Vibe conditions"
+                class="wave-image"
+            />
+        </div>
     </div>
-
     <p><strong>Location:</strong> {log.location}</p>
     <p class="notes"><strong>Notes:</strong> {@html log.notes}</p>
-
 </article>
 
 <style>
@@ -50,11 +57,26 @@
     }
 
     .wave-image {
-        width: 250px; /* Adjust the width automatically */
+        max-width: 350px; /* Adjust the width automatically */
         height: auto; /* Fixed height to maintain aspect ratio */
         object-fit: cover; /* Cover the container without losing aspect ratio */
         flex-shrink: 0; /* Prevent image from shrinking */
         border-radius: 4px; /* Optional: for aesthetics */
+    }
+
+    @media (max-width: 600px) {
+        .daily-log {
+            padding: 0.5rem;
+        }
+
+        .log-header {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .wave-image {
+            width: 100%;
+        }
     }
 
     h2 {
