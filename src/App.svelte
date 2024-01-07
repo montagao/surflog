@@ -80,7 +80,7 @@
 
 <style>
     button {
-        margin: 5px;
+        margin: 2px;
         margin-bottom: 20px;
         padding: 8px 15px;
         background-color: #000;
