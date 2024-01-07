@@ -8,7 +8,6 @@
         htmlContent = marked.parse(log.notes);
     });
 
-    $: console.log(log);
 </script>
 
 <article class="daily-log">

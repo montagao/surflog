@@ -3,7 +3,7 @@
 </script>
 
 <header>
-    <h1><a href="https://monta.foo">Monta's</a> Surf Log</h1>
+    <h1><a href="https://monta.foo">monta's</a> surf log 🏄</h1>
 </header>
 
 <main>
