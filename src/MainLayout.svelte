@@ -3,7 +3,7 @@
 </script>
 
 <header>
-    <h1><a href="https://monta.foo">monta's</a> surf log 🏄</h1>
+    <h1><a class="monta" href="https://monta.foo">monta's</a> surf log 🏄</h1>
 </header>
 
 <main>
@@ -11,6 +11,10 @@
 </main>
 
 <style>
+    a {
+        text-decoration: none;
+        color: #ffb300 !important; /* Slightly darker yellow */
+    }
     :global(body) {
         margin: 0;
         font-family: "Helvetica Neue", Arial, sans-serif;
@@ -19,8 +23,7 @@
     }
 
     header {
-        background-color: #000;
-        color: #fff;
+        color: #000;
         text-align: center;
         padding: 1rem;
     }
