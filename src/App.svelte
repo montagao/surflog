@@ -56,7 +56,7 @@
 
 <MainLayout>
     <button on:click={firstPage} disabled={currentPage === 0}>First</button>
-    <button on:click={prevPage} disabled={currentPage === 0}>Previous</button>
+    <button on:click={prevPage} disabled={currentPage === 0}>Prev.</button>
     <button on:click={nextPage} disabled={currentPage === totalPages - 1}
         >Next</button
     >
@@ -69,7 +69,7 @@
     {/each}
 
     <button on:click={firstPage} disabled={currentPage === 0}>First</button>
-    <button on:click={prevPage} disabled={currentPage === 0}>Previous</button>
+    <button on:click={prevPage} disabled={currentPage === 0}>Prev.</button>
     <button on:click={nextPage} disabled={currentPage === totalPages - 1}
         >Next</button
     >
