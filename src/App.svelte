@@ -4,6 +4,12 @@
 
     let logs = [
         {
+            date: "April 20th, 2019 ",
+            location: "Half Moon Bay, California, USA",
+            //waveImage: "./04-05-2024.jpg",
+            vibeImage: "./04-20-2019-vibe.jpg",
+            notes: "<p>Decided to try surfing with my coworkers, got my ass kicked, decided surfing was too hard for me.</p>", },
+        {
             date: "January 5th, 2024 (morning)",
             location: "Wushi Port of Yilan County, Taiwan (宜蘭頭城烏石港)",
             waveImage: "./01-05-2024.jpg",

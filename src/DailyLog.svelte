@@ -7,27 +7,29 @@
     onMount(() => {
         htmlContent = marked.parse(log.notes);
     });
-
 </script>
 
 <article class="daily-log">
     <div class="log-header">
         <h2>{log.date}</h2>
     </div>
-    <p><strong>Wave Conditions:</strong></p>
+    <p><strong>Vibe:</strong></p>
     <div>
-        <img src="/{log.waveImage}" alt="Wave conditions" class="wave-image" />
-        <p><strong>Vibe:</strong></p>
+        <img src="/{log.vibeImage}" alt="Vibe conditions" class="wave-image" />
+    </div>
+
+    <p><strong>Location:</strong> {log.location}</p>
+    <p class="notes"><strong>Notes:</strong> {@html log.notes}</p>
+    {#if log.waveImage}
+        <p><strong>Wave Conditions:</strong></p>
         <div>
             <img
-                src="/{log.vibeImage}"
-                alt="Vibe conditions"
+                src="/{log.waveImage}"
+                alt="Wave conditions"
                 class="wave-image"
             />
         </div>
-    </div>
-    <p><strong>Location:</strong> {log.location}</p>
-    <p class="notes"><strong>Notes:</strong> {@html log.notes}</p>
+    {/if}
 </article>
 
 <style>
