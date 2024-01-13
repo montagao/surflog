@@ -8,7 +8,8 @@
             location: "Half Moon Bay, California, USA",
             //waveImage: "./04-05-2024.jpg",
             vibeImage: "./04-20-2019-vibe.jpg",
-            notes: "<p>Decided to try surfing with my coworkers, got my ass kicked, decided surfing was too hard for me.</p>", },
+            notes: "<p>Decided to try surfing with my coworkers, got my ass kicked, decided surfing was too hard for me.</p>",
+        },
         {
             date: "January 5th, 2024 (morning)",
             location: "Wushi Port of Yilan County, Taiwan (宜蘭頭城烏石港)",
@@ -29,6 +30,13 @@
             waveImage: "./01-06-2024-2.jpg",
             vibeImage: "./01-06-2024-vibe2.jpeg",
             notes: "<ul> <li>Smaller waves in this session, probably due to lower swell energy? I was told anything <100kJ is small. </li><li>Wetsuit is key on cold days/in evenings below 16°C.</li> <li>Shortboard is a different beast (pictured above!) than longboards.</li> <li>Try to keep the nose of the board 1 inch above water.</li> <li>Practice just sitting on a shortboard.</li> </ul> <p><strong>Side Note:</strong><br> A very passionate/angry sounding Taiwanese man called me this morning speaking in pure Tai Yu, ending with “Ok?” and I was thoroughly confused. He repeated this for about 3 minutes. Then I asked who he was looking for, and he said 紅臉. Then I said I was Monta. He said sorry and hung up.</p> ",
+        },
+        {
+            date: "January 11th, 2024 (morning)",
+            location: "Wushi Port of Yilan County, Taiwan (宜蘭頭城烏石港)",
+            waveImage: "./01-11-2024-wave.jpeg",
+            vibeImage: "./01-11-2024-vibe.jpeg",
+            notes: "<ul> <li>In the pic above I thought I was cool and tried to go into the water like that. Nearly froze to death.</li> <li>Went back and humbly got a wetsuit. </li><li>Not surfing for a few days and I forget everything. Forgot how to pop up, realizing that I’m still using longboard thinking (pop up with toes instead of knees). </li> <li>Paddling strength is now way more important (should I train it?).</li><li>Not my best session, but focused on trying to get the feel for catching a wave on a shortboard vs a longboard as well as just keeping my balance on a shortboard.</p></li> </ul><p><strong>Side Note:</strong><br>Black sesame baos are delicious.</p>",
         },
         // ... more logs
     ];
